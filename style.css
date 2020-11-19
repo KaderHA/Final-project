@@ -10,53 +10,103 @@ html {
     font-family: 'Nunito', sans-serif;
 }
 
-/* ----innledning seksjon---- */
+
+.scroll_ned {
+
+
+}
+
+
+/* ----innledning seksjon--- */
 .forside {
     margin: 0;
     height: 100vh;
     width: 100%;
-    padding: 0%;
+    padding: 0;
     max-width: none;
     background-image: url("bilder/bGrunn/blad.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
-}
-
-.innhold_forside {
-
-
+    z-index: -1;
 }
 
 /* meny*/
 
-li a {
-    font-size: 22px;
+
+a {
+    color: rgb(128, 0, 0);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.header .meny {
+    max-height: 0px;
+    clear: both;
+}
+
+
+/* ikon meny */
+
+.header .meny_ikon {
+    float: right;
+    padding: 20px 20px;
+    position: relative;
+}
+
+
+/* menu knapp */
+
+.header .meny_knapp {
+    display: none;
+}
+
+.header .meny_knapp:checked ~ .meny {
+    max-height: 260px;
+}
+
+#mobil_meny_ikon {
+    font-size: 23px;
+    cursor: pointer;
+}
+
+/* header */
+
+.header {
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 5;
+    box-shadow: 1px -2px 4px 0;
+    opacity: 98%;
+}
+
+.header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+}
+
+.header li a {
+    display: block;
+    padding: 20px 20px;
+    border-right: 1px solid #f5f5f5;
     text-decoration: none;
-    text-align: left;
-    color: darkslategray;
-    padding: 20px;
 }
 
 li a:hover {
-    text-decoration: underline;
-    font-weight: bold;
+    background-color: rgb(230, 230, 230);
 }
 
-ul {
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 0;
+.header .logo {
+    display: block;
+    float: left;
+    font-size: 2em;
+    padding: 10px 20px;
+    text-decoration: none;
 }
 
-
-.meny {
-    box-shadow: 0 4px 5px -4px gray;
-    padding: 0;
-    margin: 0;
-    background-color: white;
-}
 
 /* overskrift styling */
 
@@ -66,8 +116,11 @@ ul {
     background-color: white;
     opacity: 76%;
     font-weight: bold;
-    margin: auto;
-   margin-top: 30vh;
+    left: 15%;
+    margin-top: -10%;
+    position: absolute;
+    top: 50%;
+    width: 70%;
 }
 
 /*
@@ -84,20 +137,21 @@ ul {
 
 .scroll_ned {
     text-align: right;
-    padding-right: 10%;
-    padding-left: 70%;
+    margin-left: 5%;
     position: absolute;
-    bottom: 20px;
+    bottom: 3%;
+    font-size: 20px;
     background-color: white;
     opacity: 70%;
+    text-decoration: none;
 }
 
 /* ----about seksjon---- */
 
 .about {
     height: 50vh;
-    margin-left: 20vh;
-    margin-right: 20vh;
+    margin-left: 5%;
+    margin-right: 5%;
     padding-top: 3vh;
 }
 
@@ -106,4 +160,22 @@ ul {
 .solution {
     height: 50vh;
     background-color: lightcyan;
+}
+
+/* mobilversion */
+@media (min-width: 768px) {
+    .header .meny {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    .header .meny_ikon {
+        display: none;
+    }
+    .header li {
+        float: left;
+    }
+    .header li a {
+        padding: 20px 30px;
+    }
 }

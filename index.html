@@ -3,40 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Final Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="fontawsome/css/all.css" rel="stylesheet">
+    <!-- Web font icons source: fontawsome.com -->
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
     <!-- font source: https://fonts.google.com/specimen/Nunito?query=nuni -->
 </head>
 <body>
 
+<!-- to do: ----
+Legg inn kommentarer i koden for god oversikt
+Endre title på siden
+Legge til alt og title atributter på bilder (og linker?)
+---    -->
+
+
 <!-- ====forside seksjon==== -->
-
 <section class="forside">
+    <div class="innhold_forside">
 
-    <!-- meny -->
-    <div class="meny">
-        <ul>
-            <li>
-                <a href="about">Solution</a>
-                <a href="about">Link</a>
-                <a href="about">About</a>
-            </li>
-        </ul>
+
+
+    <!-- meny og header -->
+        <header class="header">
+            <a href="" class="logo"><i title="Take me to the top" id="header_logo"
+                                       alt="Infinity logo" class="fas fa-infinity"></i></a>
+            <input class="meny_knapp" type="checkbox" id="meny_knapp" />
+            <label class="meny_ikon" for="meny_knapp"><i title="Mobile menu" alt="Mobile menu"
+                                                                      id="mobil_meny_ikon" class="fas fa-bars"></i></span></label>
+            <ul class="meny">
+                <li><a href="#problem">Problem</a></li>
+                <li><a href="#solution">Solution</a></li>
+                <li><a href="#aboutus">About us</a></li>
+                <li><a href="#sources">Sources</a></li>
+            </ul>
+        </header>
+
+
+        <h1 class="overskrift_forside">Final Project idea</h1>
+        <a href="#solution" class="scroll_ned">See our solution    <i label="Scroll down" class="fas fa-arrow-down"></i></h2>
+            </a>
+
+
     </div>
-
-<div class="innhold_forside">
-    <h1 class="overskrift_forside">Final Project idea</h1>
-
-</div>
-    <h2 class="scroll_ned">Scroll down (link til neste segment)</h2>
 </section>
 
 
 <!-- ====about seksjon==== -->
 
 <section class="about">
-    <div class="about_innhold">
+    <div class="about_innhold" id="problem">
         <p>
             Lorem ipsum dolor sit amet,
             consectetur adipiscing elit. Aliquam pulvinar sapien at pellentesque scelerisque. Fusce
@@ -54,7 +72,7 @@
 <!-- ====solution seksjon==== -->
 
 <section class="solution">
-    <div class="solution_innhold">
+    <div class="solution_innhold" id="solution">
 
     </div>
 </section>
