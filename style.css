@@ -95,11 +95,66 @@ ul {
 /* ----about seksjon---- */
 
 .about {
-    height: 50vh;
-    margin-left: 20vh;
-    margin-right: 20vh;
+    height: 170vh;
     padding-top: 3vh;
 }
+
+#Challenge1 {
+    font-size: 40px;
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+#p1 {
+    font-size: 20px;
+    max-width: 80%;
+    letter-spacing: 1.5px;
+    line-height: 45px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.about img {
+    width: 100vw;
+    height: 500px;
+    object-fit: cover;
+    padding-bottom: 100px;
+}
+
+#Challenge2 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 20px;
+    letter-spacing: 2px;
+}
+
+#p2 {
+    max-width: 80%;
+    width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    line-height: 45px;
+    text-align: center;
+}
+
+/*#button {
+    text-align: center;
+}
+
+.about button {
+    font-size: 20px;
+    background-color: #CD342E;
+    color: #FFFFFF;
+    padding: 20px 20px;
+    border-width: 0px;
+    border-radius: 50px;
+
+}*/
 
 /* ----solution seksjon---- */
 
