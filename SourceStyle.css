@@ -239,10 +239,10 @@ li a:hover {
     background-color: white;
     opacity: 76%;
     font-weight: bold;
-    left: 15%;
+    left: 25%;
     position: absolute;
     top: 10%;
-    width: 70%;
+    width: 50%;
     margin-bottom: 35px;
 }
 .sources_Title {
@@ -267,7 +267,7 @@ li a:hover {
     margin-right: 25px;
     margin-top: 10px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: auto;
     flex-wrap: wrap;
 
