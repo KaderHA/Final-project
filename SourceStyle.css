@@ -256,6 +256,7 @@ li a:hover {
     margin: 10px;
     position: relative;
     left: 2%;
+    word-wrap: break-word;
     
 
 }
@@ -272,4 +273,7 @@ li a:hover {
 .sources h2 {
     font-weight: bold;
 }
+.break-word {
+    word-wrap: break-word;
 
+}
