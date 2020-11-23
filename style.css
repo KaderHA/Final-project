@@ -231,7 +231,7 @@ li a:hover {
     width: 100%;
     padding: 0;
     max-width: none;
-    background-image: url("https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80");
+    background-image: url("bilder/cover_medium.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
