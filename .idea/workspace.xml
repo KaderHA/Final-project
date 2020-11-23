@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d61e78-db1e-4c53-b545-c47d4d4e5d55" name="Default Changelist" comment="Solution.html">
-      <change afterPath="$PROJECT_DIR$/Solution.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2020_09_17__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2020_09_17__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="65d61e78-db1e-4c53-b545-c47d4d4e5d55" name="Default Changelist" comment="Solution.page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Solution.html" beforeDir="false" afterPath="$PROJECT_DIR$/Solution.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -123,7 +121,8 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="Solution.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solution.html" />
+    <MESSAGE value="Solution.page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution.page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="481" y="227" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606155751138">
@@ -191,9 +190,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1360" y="457" key="Vcs.Push.Dialog.v2/0.0.2560.1400@0.0.2560.1400" timestamp="1605686315564" />
-    <state x="878" y="216" width="1389" height="1043" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605687517369">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="3527" y="127" width="834" height="614" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1606170423448">
+      <screen x="3000" y="0" width="1536" height="824" />
     </state>
+    <state x="3527" y="127" width="834" height="614" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1500.960/3000.0.1536.824@3000.0.1536.824" timestamp="1606170423448" />
     <state x="878" y="216" width="1389" height="1043" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605687517369" />
   </component>
 </project>
