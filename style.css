@@ -225,39 +225,58 @@ li a:hover {
     bottom: 10px;
 }
 /*---------solution side---------*/
+.solution2 {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    max-width: none;
+    background-image: url("bilder/cover_medium.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.prototype{
+    text-align: right;
+    margin-left: 5%;
+    position: absolute;
+    font-size: 20px;
+    background-color: white;
+    opacity: 70%;
+    text-decoration: none;
 
-<bottom>
-    <div class="innovation">
-        <h2 id="Challenge1">We have created a solution that creates value on plastic waste, making plastic waste a valuable material for common people.</h2>
-        <p id="p1">
-            Our solution to the problem is a 3D Printer that is able to melt down collected plastic materials and uses this to create a desired object.
-            The solution creates a value on plastic waste, which will prevent plastics from entering the environment.
-            With 3D printers you can print out 3-dimensional objects based on a working template.
-            Manufacturers can provide you with a template where you can print a broken part of a machinery, you can make furniture, cutlery,
-            tools even instruments to make a living off. This is how our innovation will create value on plastic waste. The goal is that people will start
-            collecting plastic waste in their homes or in the environment,
-            our solution will therefor prevent plastics from entering the environment and will reduce the material that is already out there.
-        </p>
-    <Div class=" container_image">
-        <div></div>
-        <img src="bilder/street.png" alt="" class="vending" >
-        <img src="bilder/vender.png" alt="" class="vending2">
-    </Div>
+}
+.function {
+    height: 100vh;
+    padding-top: 3vh;
+}
 
-    <div>
-        <h2 id="Challenge2">From plastic waste to plastic grace</h2>
-        <p id="p2">The Print-Box is a 3d printer that is located on the streets.
-            This printer is able to clean, meltdown and create 3d printing ink out of collected plastic materials.
-            Look up a product that you would like to make on the Print Box website or see available products on the machine itself.
-            Get your code for the product.
+.imagebox{
+    padding-right: 10px;
+    padding-left: 20px;
+    height: 300px;
+  }
 
-            A person empties his/her plastic materials into the machine. The material is washed and melted down into a material that is used as 3d ink.
-            The person then enters their product code for the printing process to start. </p>
-    </div>
+.images2{
 
-
-        </divclass>
-</bottom>
+    height: 500px;
+    width: 100%;
+}
+.vending{
+    padding: 5px;
+    height: 500px;
+    float: right;
+    width: 50%;
+    max-width: 600px;
+}
+.vending2{
+    max-width: 600px;
+    padding: 5px;
+    height: 500px;
+    float: left;
+    width: 50%;
+}
 
 
 /* =====mobilversion====== */
