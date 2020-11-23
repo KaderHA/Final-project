@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="65d61e78-db1e-4c53-b545-c47d4d4e5d55" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="65d61e78-db1e-4c53-b545-c47d4d4e5d55" name="Default Changelist" comment="Solution.html">
+      <change afterPath="$PROJECT_DIR$/Solution.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2020_09_17__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_18_11_2020_09_17__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/AboutUs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sources.html" beforeDir="false" afterPath="$PROJECT_DIR$/sources.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,8 +34,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,7 +54,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -100,6 +99,7 @@
       <workItem from="1606120061699" duration="3000" />
       <workItem from="1606129074183" duration="258000" />
       <workItem from="1606129334870" duration="1120000" />
+      <workItem from="1606137185451" duration="13499000" />
     </task>
     <servers />
   </component>
@@ -122,8 +122,14 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value="Solution.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solution.html" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="481" y="227" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606155751138">
+      <screen x="0" y="0" width="1500" height="960" />
+    </state>
+    <state x="481" y="227" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1500.960/3000.0.1536.824@0.0.1500.960" timestamp="1606155751138" />
     <state x="1353" y="493" key="FileChooserDialogImpl" timestamp="1606129331570">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -176,9 +182,10 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="1446" height="177" key="GridCell.Tab.2.right/0.0.2560.1400@0.0.2560.1400" timestamp="1606130464588" />
-    <state x="1358" y="475" key="SettingsEditor" timestamp="1606129406872">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="504" y="250" key="SettingsEditor" timestamp="1606137218554">
+      <screen x="0" y="0" width="1500" height="960" />
     </state>
+    <state x="504" y="250" key="SettingsEditor/0.0.1500.960/3000.0.1536.824@0.0.1500.960" timestamp="1606137218554" />
     <state x="1358" y="475" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1606129406872" />
     <state x="1360" y="457" key="Vcs.Push.Dialog.v2" timestamp="1605686315564">
       <screen x="0" y="0" width="2560" height="1400" />
