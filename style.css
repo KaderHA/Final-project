@@ -56,7 +56,7 @@ a {
 }
 
 
-/* menu knapp */
+/* meny knapp */
 
 .header .meny_knapp {
     display: none;
@@ -218,7 +218,12 @@ li a:hover {
     background-color: lightcyan;
 }
 
-/* mobilversion */
+#scrollStopp {
+    position: absolute;
+    bottom: 10px;
+}
+
+/* =====mobilversion====== */
 @media (min-width: 768px) {
     .header .meny {
         clear: none;
