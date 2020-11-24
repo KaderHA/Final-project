@@ -1,5 +1,4 @@
-*{margin:0;padding:0;scroll-behavior: smooth;     font-family: 'Quicksand', sans-serif;
-}
+*{margin:0; padding:0; scroll-behavior: smooth; font-family: 'Quicksand', sans-serif;}
 
 html, body{
     overflow-x:hidden;
@@ -214,7 +213,8 @@ li a:hover {
 
     .TheHeader #scroll{
         margin-top:9em;
-
+        font-size: 23px;
+        font-weight: bold;
     }
 
     #scroll i{
@@ -234,8 +234,9 @@ li a:hover {
     }
 
     #container1{
-        margin: 5em;
+        margin: 0 5em;
         line-height:45px;
+        padding-bottom: 15em;
     }
 
     #container1 p{
@@ -248,6 +249,7 @@ li a:hover {
 
     .gridLayout{
         display:grid;
+        grid-gap: 2.3em;
         grid-template-columns: auto auto auto;
     }
 
