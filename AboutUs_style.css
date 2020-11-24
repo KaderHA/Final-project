@@ -165,7 +165,7 @@ li a:hover {
     transition: 0.3s;
 }
 
-.items #text{
+.items .text{
         display: flex;
         flex-direction: column;
         align-items: left;
@@ -180,7 +180,7 @@ li a:hover {
     cursor:pointer;
 }
 
-#text{
+.text{
     margin-top:2.3em;
 }
 
