@@ -1,5 +1,9 @@
 *{margin:0;padding:0;scroll-behavior: smooth; font-family: 'Nunito',sans-serif;}
 
+html, body{
+    overflow-x:hidden; 
+}
+
 a {
     color: rgb(128, 0, 0);
     font-weight: bold;
@@ -109,10 +113,6 @@ li a:hover {
     background-color: rgb(128, 0, 0);
 }
 
-#scroll i:hover{
-    margin-top:1.9em;
-}
-
 .title{
     font-size: 35px;
     margin-bottom:1.5em;
@@ -214,15 +214,26 @@ li a:hover {
     }
     
     #scroll i:hover{
-        margin-top:1.6em;  
+        margin-top:0.95em;
+    }
+   
+    .title{
+        letter-spacing: 2px;
+    }
+    
+    #container1{
+        margin: 5em;
+        line-height:45px;
+    }
+    
+    #container2 p{
+        font-size:20px;     
     }
     
     #container2{
         margin: 5em;
     }
-    #container1{
-        margin: 5em;
-    }
+    
     .gridLayout{
         display:grid;
         grid-template-columns: auto auto auto;
