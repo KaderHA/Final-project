@@ -268,26 +268,18 @@ li a:hover {
 
 .container_image{
     display: flex;
-    height: 500px;
-    width: 100%;
-    text-align: center;
-
+    align-items: center;
+    justify-content: center;
 }
 
 
 .vending{
     padding: 5px;
-    max-width: 50vw;
-
-
-
-
-
+    width: 40vw;
 }
 .vending2{
+    height: 40vw;
     padding: 5px;
-    max-width: 50vw;
-    height: 100%;
 }
 
 
@@ -310,10 +302,21 @@ li a:hover {
     }
 
 
+
+
 }
 @media (max-width: 768px) {
-    .container_image{
-        display: block;
+    .container_image {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .vending {
+        width: 90%;
+    }
+    .vending2 {
+        width: 90%;
+        height: 90%;
     }
 
 }
