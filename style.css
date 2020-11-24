@@ -17,14 +17,14 @@ padding-left: 5%;
 }
 
 
-/* ----innledning seksjon--- */
+/* ----problem side--- */
 .forside {
     margin: 0;
     height: 100vh;
     width: 100%;
     padding: 0;
     max-width: none;
-    background-image: url("bilder/bGrunn/blad.jpg");
+    background-image: url("bilder/havet.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
