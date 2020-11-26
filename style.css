@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -160,7 +161,7 @@ li a:hover {
 /* ----about seksjon---- */
 
 .about {
-    height: 170vh;
+    height: 150vh;
     padding-top: 3vh;
 }
 
@@ -207,24 +208,30 @@ li a:hover {
     text-align: center;
 }
 
-/*#button {
+#button {
     text-align: center;
 }
 
 .about button {
     font-size: 20px;
-    background-color: #CD342E;
-    color: #FFFFFF;
+    background-color: rgb(110, 0, 0);
     padding: 20px 20px;
     border-width: 0px;
     border-radius: 50px;
+    text-decoration: none;
+}
 
-}*/
+#button a {
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+
 
 /* ----solution seksjon---- */
 
 
-.solution {
+/*.solution {
     height: 50vh;
     background-color: lightcyan;
 
@@ -233,7 +240,8 @@ li a:hover {
 #scrollStopp {
     position: absolute;
     bottom: 25px;
-}
+}*/
+
 /*---------solution side---------*/
 
 
