@@ -11,13 +11,12 @@ html {
     scroll-behavior: smooth;
 }
 
-
 .scroll_ned {
 padding-left: 5%;
 }
 
 
-/* ----innledning seksjon--- */
+/* ----problem seksjon--- */
 .forside {
     margin: 0;
     height: 100vh;
@@ -29,6 +28,26 @@ padding-left: 5%;
     background-position: center;
     background-repeat: no-repeat;
     z-index: -1;
+}
+
+/* overskrift styling */
+
+.overskrift_forside {
+    text-align: center;
+    font-size: 10vh;
+    background-color: white;
+    opacity: 76%;
+    font-weight: bold;
+    left: 15%;
+    margin-top: -10%;
+    position: absolute;
+    top: 50%;
+    width: 70%;
+}
+
+.puzzle_img {
+    width: 100%;
+    height: auto;
 }
 
 /* meny*/
@@ -107,21 +126,6 @@ li a:hover {
     text-decoration: none;
 }
 
-
-/* overskrift styling */
-
-.overskrift_forside {
-    text-align: center;
-    font-size: 10vh;
-    background-color: white;
-    opacity: 76%;
-    font-weight: bold;
-    left: 15%;
-    margin-top: -10%;
-    position: absolute;
-    top: 50%;
-    width: 70%;
-}
 
 /*
 
