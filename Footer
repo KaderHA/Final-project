@@ -1,0 +1,40 @@
+
+    <footer>
+        <div class="top_footer">
+            <a href="" class="logo"><i title="Take me to the top" id="header_logo"
+                                       alt="Infinity logo" class="fas fa-infinity"></i> 3D Recycle</a>
+        
+            <p class="bunntekst">Creat a value from plastic waste</p>
+            <h3>Follow Us</h3>
+            <!--Ikoner-->
+           <ul>
+               <li>
+                   <a href=""><i class="fa fa-facebook-square" style="color: white">
+                       </i></a>
+               </li>
+               <li>
+                   <a href=""><i class="fa fa-twitter-square" style="color: white"></i></a>
+               </li>
+               <li>
+                   <a href=""><i class="fa fa-instagram" style="color: white"></i></a>
+               </li>
+               <li>
+                   <a href=""><i class="fa fa-linkedin-square" style="color: white"></i></a>
+               </li>
+               <li>
+                   <a href=""><i class="fa fa-youtube-square" style="color: white"></i></a>
+               </li>
+               <li>
+                   <a href=""><i class="fa fa-twitch" style="color: white"></i></a>
+               </li>
+               <li>
+                   <a href=""><i class="fa fa-snapchat" style="color: white"></i></a>
+               </li>
+           
+           </ul>
+            <div class="under_footer">
+           <p class="bunntekst">Made By OsloMet Students</p>
+       </div>
+        </div>
+       
+    </footer>
