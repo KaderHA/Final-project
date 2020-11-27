@@ -269,16 +269,54 @@ li a:hover {
 /* ----solution seksjon---- */
 
 
-/*.solution {
-    height: 50vh;
-    background-color: lightcyan;
+
+
 
 
 #scrollStopp {
     position: absolute;
     bottom: 25px;
-}*/
+}
+.map{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    padding-left: 20%;
 
+
+}
+.mobil-text{
+    padding-top: 5%;
+    font-size: 40px;
+
+
+
+}
+.mobil-kart{
+    padding-left: 10%;
+    text-align: center;
+
+}
+@media (max-width: 1024px) {
+    .solution{
+        height: 60vh;
+    }
+    .map{
+        display: block;
+        text-align: center;
+        padding-left: 0;
+    }
+    .mobil-kart{
+        padding: 0;
+
+    }
+
+}
+@media (max-width: 414px) {
+    .solution{
+        height: 80vh;
+    }
+}
 /*---------solution side---------*/
 
 /*---------solution side---------*/
