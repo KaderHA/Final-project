@@ -1,0 +1,41 @@
+footer{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.top_footer{
+    background-color: black;
+    padding: 4px 0;
+}
+
+.under_footer{
+    background-color: #262626;
+    padding: 1vh 0;
+}
+
+footer li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 3vw ;
+    font-size: 30px;   
+}
+footer a{
+    color: #460909;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+footer i{
+    
+}
+
+.bunntekst {
+    letter-spacing: 5px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 25px;
+}
