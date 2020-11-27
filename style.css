@@ -157,17 +157,6 @@ li a:hover {
 
 }
 
-.kilde {
-    color: white;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    background-color: black;
-    height: 20vh;
-    display: block;
-    z-index: 1;
-    max-width: none;
-}
 
 #Challenge1 {
     font-size: 40px;
@@ -217,6 +206,7 @@ li a:hover {
 
 #button {
     text-align: center;
+    margin-bottom:5%;
 }
 
 .about button {
@@ -231,6 +221,44 @@ li a:hover {
 #button a {
     text-decoration: none;
     color: #F5F5F5;
+}
+
+/*------- Kilde seksjon ------*/
+.kilde {
+    color: white;
+    padding-top: 3px;
+    padding-left: 3%;
+    width: 100%;
+    background-color: black;
+    height: 20vh;
+    display: block;
+    z-index: 1;
+    max-width: none;
+}
+
+#ref1:target {
+    color: black;
+    background-color: white;
+}
+
+#ref2:target {
+    color: black;
+    background-color: white;
+}
+
+#ref3:target {
+    color: black;
+    background-color: white;
+}
+
+#ref4:target {
+    color: black;
+    background-color: white;
+}
+
+#ref5:target {
+    color: black;
+    background-color: white;
 }
 
 
