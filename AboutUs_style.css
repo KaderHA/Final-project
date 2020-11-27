@@ -95,32 +95,40 @@ li a:hover {
     font-size: 8vh;
     font-weight: bold;
     background-color: rgba(211, 211, 211, 0.911);
-    width:9em;
+    width:100vw;
+    padding:0.2em;
+    height: 12vh;
     text-align: center;
-    margin-top:2.9em;
+    margin-top:4.0em;
 }
 
 .TheHeader #scroll{
-    margin-top:5.3em;
+    margin-top:3.3em;
     font-size: large;
     transition: 0.3s;
     text-decoration: none;
     display: flex;
+    background-color: rgb(128, 0, 0);
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.5);
+    border:none;
+    transition:0.3s;
     flex-direction: column;
     align-items: center;
-}
-
-#scroll i{
-    margin-top:0.4em;
-    border-radius: 25px;
+    border-radius: 5px;
     padding:0.5em;
-    color:white;
-    background-color: rgb(128, 0, 0);
 }
 
+#scroll a{
+    color:white;
+    text-decoration: none;
+}
+
+#scroll:active{
+    box-shadow: 2px 2px 5px 5px rgba(0,0,0,0.2);
+}
 .title{
     font-size: 35px;
-    margin-bottom:1.5em;
+    margin-bottom:0.5em;
 }
 
 #container1{
@@ -149,6 +157,7 @@ li a:hover {
 #container2{
     margin-bottom:1.5em;
     display: flex;
+    padding-top:1.5em;
     flex-direction: column;
     align-items: center;
     margin: em;
@@ -188,6 +197,7 @@ li a:hover {
     margin-top:2.3em;
 }
 
+
 /* Desktop */
 @media (min-width: 768px) {
     .header .meny {
@@ -206,32 +216,21 @@ li a:hover {
     }
 
     .TheHeader{
-        height:800px;
+        height:80vh;
     }
 
     .TheHeader h3{
-        font-size:10vh;
-        margin-top:3.5em;
+        font-size:11vh;
+        margin-top:25vh;
         font-weight:bold;
     }
 
     .TheHeader #scroll{
-        margin-top:9em;
+        margin-top:15vh;
         font-size: 23px;
         font-weight: bold;
     }
 
-    #scroll i{
-        margin-top:0.6em;
-        transition:0.3s;
-        width:1.2em;
-        text-align: center;
-        height: 1.1em;
-    }
-
-    #scroll i:hover{
-        margin-top:0.95em;
-    }
 
     .title{
         letter-spacing: 2px;
