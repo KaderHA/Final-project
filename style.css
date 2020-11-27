@@ -86,7 +86,7 @@ a {
 }
 
 #mobil_meny_ikon {
-    font-size: 23px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -122,8 +122,8 @@ li a:hover {
 .header .logo {
     display: block;
     float: left;
-    font-size: 2em;
-    padding: 10px 10px 0px;
+    font-size: 1.5em;
+    padding: 15px 10px 0px;
     text-decoration: none;
 }
 
@@ -194,7 +194,7 @@ li a:hover {
 
 #p2 {
     max-width: 80%;
-    width: 1000px;
+    width: 100%;
     margin: 30px auto;
     padding: 20px;
     font-size: 20px;
@@ -226,15 +226,20 @@ li a:hover {
 /*------- Kilde seksjon ------*/
 .kilde {
     color: white;
-    padding-top: 3px;
-    padding-left: 3%;
     width: 100%;
     background-color: black;
-    height: 20vh;
-    display: block;
+    height: fit-content;
     z-index: 1;
+    display: block;
     max-width: none;
+    margin: 0;
+    padding: 0;
 }
+.kilde_innhold {
+    width: 100%;
+    padding:3%;
+}
+
 
 #ref1:target {
     color: black;
@@ -260,8 +265,6 @@ li a:hover {
     color: black;
     background-color: white;
 }
-
-
 
 /* ----solution seksjon---- */
 
