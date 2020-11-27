@@ -157,6 +157,18 @@ li a:hover {
 
 }
 
+.kilde {
+    color: white;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: black;
+    height: 20vh;
+    display: block;
+    z-index: 1;
+    max-width: none;
+}
+
 #Challenge1 {
     font-size: 40px;
     max-width: 80%;
@@ -230,8 +242,6 @@ li a:hover {
     height: 50vh;
     background-color: lightcyan;
 
-.kilde_innhold {
-}
 
 #scrollStopp {
     position: absolute;
