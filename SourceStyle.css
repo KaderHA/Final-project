@@ -34,7 +34,6 @@ html {
 
 /* meny*/
 
-
 a {
     color: rgb(128, 0, 0);
     font-weight: bold;
@@ -42,10 +41,9 @@ a {
 }
 
 .header .meny {
-    max-height: 0px;
+    max-height: 0;
     clear: both;
 }
-
 
 /* ikon meny */
 
@@ -55,8 +53,7 @@ a {
     position: relative;
 }
 
-
-/* menu knapp */
+/* meny knapp */
 
 .header .meny_knapp {
     display: none;
@@ -67,7 +64,7 @@ a {
 }
 
 #mobil_meny_ikon {
-    font-size: 23px;
+    font-size: 20px;
     cursor: pointer;
 }
 
@@ -91,7 +88,7 @@ a {
 
 .header li a {
     display: block;
-    padding: 20px 20px;
+    padding: 10px 10px;
     border-right: 1px solid #f5f5f5;
     text-decoration: none;
 }
@@ -103,8 +100,8 @@ li a:hover {
 .header .logo {
     display: block;
     float: left;
-    font-size: 2em;
-    padding: 10px 10px 0px;
+    font-size: 1.5em;
+    padding: 15px 10px 0px;
     text-decoration: none;
 }
 
