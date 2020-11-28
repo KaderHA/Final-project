@@ -280,25 +280,30 @@ li a:hover {
     bottom: 25px;
 }
 .map{
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding:3%;
+    margin: auto;
+    margin-bottom: 5%;
     display: flex;
-    padding-left: 20%;
-
-
+    box-shadow: 0 0 6px lightgrey;
+    width: 70%;
+    background-color:rgb(239, 245, 239);
 }
 .mobil-text{
-    padding-top: 5%;
     font-size: 40px;
-
-
-
+    margin-top: 2px;
+    width: 50%;
 }
+
+.mobil-text p {
+    font-size: 0.4em;
+}
+
 .mobil-kart{
-    padding-left: 10%;
-    text-align: center;
+    padding: 3%;
+    width: 100%;
+   }
 
-}
+
 @media (max-width: 1024px) {
     .solution{
         height: 60vh;
@@ -308,10 +313,7 @@ li a:hover {
         text-align: center;
         padding-left: 0;
     }
-    .mobil-kart{
-        padding: 0;
 
-    }
 
 }
 @media (max-width: 414px) {
@@ -448,6 +450,11 @@ li a:hover {
 
     .overskrift_forside {
         font-size: 7vh;
+    }
+
+    .mobil-kart {
+        width: 100%;
+        margin: auto;
     }
 
 }
