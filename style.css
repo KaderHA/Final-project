@@ -307,23 +307,42 @@ li a:hover {
 
 @media (max-width: 1024px) {
     .solution{
-        height: 80vh;
+        height: 100vh;
     }
     .map{
         display: block;
         text-align: center;
-        padding-left: 0;
-    }
 
+    }
+    .map{
+        padding:1%;
+        margin: auto;
+        margin-bottom: 5%;
+
+
+        box-shadow: 0 0 6px lightgrey;
+        width: 70%;
+        background-color:rgb(239, 245, 239);
+    }
 
 }
 @media (max-width: 415px) {
     .solution{
-        height: 100vh;
+        height: 120vh;
     }
     img.mobil-kart{
-        height: 300px;
-        width: 300px;
+        height: 250px;
+        width: 250px;
+
+    }
+}
+@media (max-width: 360px) {
+    .solution{
+        height: 150vh;
+    }
+    img.mobil-kart{
+        height: 260px;
+        width: 250px;
 
     }
 }
