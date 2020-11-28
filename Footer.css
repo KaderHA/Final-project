@@ -8,6 +8,7 @@ footer{
 .top_footer{
     background-color: black;
     padding: 4px 0;
+
 }
 
 .under_footer{
@@ -36,6 +37,7 @@ footer i{
     letter-spacing: 5px;
     font-weight: bold;
     font-size: 15px;
+    padding-bottom: 2vh;
 }
 
 h3 {
