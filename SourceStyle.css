@@ -209,12 +209,7 @@ li a:hover {
 
 }*/
 
-/* ----solution seksjon---- */
 
-.solution {
-    height: 50vh;
-    background-color: lightcyan;
-}
 
 /* mobilversion */
 @media (min-width: 768px) {
@@ -240,7 +235,7 @@ li a:hover {
     left: 25%;
     position: absolute;
     top: 10%;
-    width: 50%;
+    width: 70%;
     margin-bottom: 35px;
 }
 .sources_Title {

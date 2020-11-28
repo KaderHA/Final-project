@@ -126,7 +126,7 @@ li a:hover {
     display: block;
     float: left;
     font-size: 1.5em;
-    padding: 15px 10px 0px;
+    padding: 15px 10px 0;
     text-decoration: none;
 }
 
@@ -215,7 +215,7 @@ li a:hover {
     font-size: 20px;
     background-color: rgb(110, 0, 0);
     padding: 20px 20px;
-    border-width: 0px;
+    border-width: 0;
     border-radius: 50px;
     text-decoration: none;
 }
@@ -236,6 +236,7 @@ li a:hover {
     max-width: none;
     margin: 0;
     padding: 0;
+
 }
 .kilde_innhold {
     width: 100%;
@@ -306,7 +307,7 @@ li a:hover {
 
 @media (max-width: 1024px) {
     .solution{
-        height: 60vh;
+        height: 80vh;
     }
     .map{
         display: block;
@@ -316,9 +317,14 @@ li a:hover {
 
 
 }
-@media (max-width: 414px) {
+@media (max-width: 415px) {
     .solution{
-        height: 80vh;
+        height: 100vh;
+    }
+    img.mobil-kart{
+        height: 300px;
+        width: 300px;
+
     }
 }
 /*---------solution side---------*/
