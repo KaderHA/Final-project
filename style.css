@@ -264,18 +264,15 @@ li a:hover {
 
 .mobil-text-innhold{
     font-size: 40px;
-    margin-top: 2px;
-    width: 100%;
 }
 
 .mobil-app {
-    width: 100%;
-    padding-right: 5%;
-    padding-top: 1%;
+    width: 80%;
+    padding:5%;
 }
 
 .mobil-text {
-    font-size: 1.1em;
+    font-size: 1.2em;
 }
 
 img.mobil-kart {
@@ -284,12 +281,12 @@ img.mobil-kart {
 }
 
 .mobil-kart{
-    padding: 0;
+    padding-top: 8%;
     height: auto;
-    width: 80%;
+    width: 90%;
 }
 
-
+/*
 @media (max-width: 1024px) {
     .solution{
         height: 100vh;
@@ -311,26 +308,22 @@ img.mobil-kart {
     }
 
 }
+
+
 @media (max-width: 415px) {
     .solution{
         height: 120vh;
     }
-    img.mobil-kart{
-        height: 250px;
-        width: 250px;
 
-    }
 }
 @media (max-width: 360px) {
     .solution{
-        height: 150vh;
+        height: 160vh;
     }
-    img.mobil-kart{
-        height: 260px;
-        width: 90%;
 
-    }
 }
+
+ */
 /*---------solution side---------*/
 
 /*---------solution side---------*/
@@ -462,9 +455,9 @@ img.mobil-kart {
         font-size: 7vh;
     }
 
-    .mobil-kart {
-        width: 100%;
-        margin: auto;
+    .map {
+        flex-wrap: wrap;
     }
+
 
 }
