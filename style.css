@@ -244,36 +244,7 @@ li a:hover {
 }
 
 
-#ref1:target {
-    color: black;
-    background-color: white;
-}
-
-#ref2:target {
-    color: black;
-    background-color: white;
-}
-
-#ref3:target {
-    color: black;
-    background-color: white;
-}
-
-#ref4:target {
-    color: black;
-    background-color: white;
-}
-
-#ref5:target {
-    color: black;
-    background-color: white;
-}
-
 /* ----solution seksjon---- */
-
-
-
-
 
 
 #scrollStopp {
@@ -285,24 +256,38 @@ li a:hover {
     margin: auto;
     margin-bottom: 5%;
     display: flex;
+    justify-content: center;
     box-shadow: 0 0 6px lightgrey;
     width: 70%;
     background-color:rgb(239, 245, 239);
 }
-.mobil-text{
+
+.mobil-text-innhold{
     font-size: 40px;
     margin-top: 2px;
-    width: 50%;
+    width: 100%;
 }
 
-.mobil-text p {
-    font-size: 0.4em;
+.mobil-app {
+    width: 100%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+
+.mobil-text {
+    font-size: 1.1em;
+}
+
+img.mobil-kart {
+    padding: 0;
+    margin: 0;
 }
 
 .mobil-kart{
-    padding: 3%;
-    width: 99%;
-   }
+    padding: 0;
+    height: auto;
+    width: 80%;
+}
 
 
 @media (max-width: 1024px) {

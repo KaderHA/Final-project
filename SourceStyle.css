@@ -209,6 +209,32 @@ li a:hover {
 
 }*/
 
+#ref1:target {
+    background-color: lightgrey;
+    width: 70%;
+}
+
+#ref2:target {
+    background-color: lightgrey;
+    width: 70%;
+}
+
+#ref3:target {
+    background-color: lightgrey;
+    width: 70%;
+}
+
+#ref4:target {
+    background-color: lightgrey;
+    width: 70%;
+}
+
+#ref5:target {
+    background-color: lightgrey;
+    width: 70%;
+}
+
+
 
 
 /* mobilversion */

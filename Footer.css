@@ -1,13 +1,16 @@
 footer{
-
+    margin-top: 8%;
     width: 100%;
     text-align: center;
     color: white;
+    position: relative;
+    bottom: 0;
 }
 
 .top_footer{
     background-color: black;
     padding: 4px 0;
+
 
 }
 
@@ -25,8 +28,9 @@ footer li{
 footer a{
     color: greenyellow;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 2em;
     text-decoration: none;
+    z-index: 1;
 }
 
 footer i{
