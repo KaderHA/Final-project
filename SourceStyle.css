@@ -234,6 +234,11 @@ li a:hover {
     width: 70%;
 }
 
+#ref6:target {
+    background-color: lightgrey;
+    width: 70%;
+}
+
 
 
 
