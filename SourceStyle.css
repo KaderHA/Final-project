@@ -245,8 +245,6 @@ li a:hover {
 }
 
 
-
-
 /* mobilversion */
 @media (min-width: 768px) {
     .header .meny {
@@ -254,16 +252,20 @@ li a:hover {
         float: right;
         max-height: none;
     }
+
     .header .meny_ikon {
         display: none;
     }
+
     .header li {
         float: left;
     }
+
     .header li a {
         padding: 20px 30px;
     }
 }
+
 .sources {
     background-color: white;
     opacity: 76%;
@@ -274,23 +276,26 @@ li a:hover {
     width: 70%;
     margin-bottom: 35px;
 }
+
 .sources_Title {
     text-align: center;
     font-size: 6vh;
     font-weight: bold;
     left: 15%;
 }
+
 .sources li {
     padding: 5px;
     margin: 10px;
     position: relative;
     left: 2%;
-    width:80%;
+    width: 80%;
     word-wrap: break-word;
-    
+
 
 }
-.sources ul {    
+
+.sources ul {
     padding: 3px;
     margin-left: 25px;
     position: relative;
@@ -300,6 +305,7 @@ li a:hover {
     height: auto;
 
 }
+
 .sources h2 {
     font-weight: bold;
 }
