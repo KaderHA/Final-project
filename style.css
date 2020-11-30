@@ -19,6 +19,8 @@ html{
 padding-left: 5%;
 }
 /* ----problem seksjon--- */
+/* ----problem seksjon--- */
+
 .forside {
     margin: 0;
     height: 60vh;
@@ -61,7 +63,7 @@ padding-left: 5%;
     height: 20vh;
 }
 
-/* meny*/
+/* ----meny---- */
 
 a {
     color: rgb(128, 0, 0);
@@ -146,6 +148,7 @@ li a:hover {
 
 
 
+/* ----about seksjon---- */
 /* ----about seksjon---- */
 
 
@@ -233,7 +236,47 @@ li a:hover {
     color: #F5F5F5;
 }
 
+/*------- UN goal 12 ----- */
+
+.ungoal {
+}
+
+.ungoal-content {
+    background-color: rgb(27, 15, 62);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 14%;
+    padding-right: 14%;
+    color: white;
+
+}
+
+.ungoal-content-text {
+    width: 550px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.ungoal-bilde {
+    width: 220px;
+    padding-top: 3%;
+}
+
+.ungoal-content img {
+    width:100%;
+    height: auto;
+}
+
+.srclink {
+    color: #d0ebff;
+}
+
 /*------- Kilde seksjon ------*/
+/*------- Kilde seksjon ------*/
+
 .kilde {
     color: white;
     width: 100%;
@@ -252,7 +295,8 @@ li a:hover {
 }
 
 
-/* ----solution seksjon---- */
+/* ----solution side---- */
+/* ----solution side---- */
 
 
 #scrollStopp {
@@ -270,71 +314,7 @@ li a:hover {
     background-color:rgb(239, 245, 239);
 }
 
-.mobil-text-innhold{
-    font-size: 40px;
-}
-
-.mobil-app {
-    width: 80%;
-    padding:5%;
-}
-
-.mobil-text {
-    font-size: 1.2em;
-}
-
-img.mobil-kart {
-    padding: 0;
-    margin: 0;
-}
-
-.mobil-kart{
-    padding-top: 10%;
-    height: auto;
-    width: 280px;
-}
-
-/*
-@media (max-width: 1024px) {
-    .solution{
-        height: 100vh;
-    }
-    .map{
-        display: block;
-        text-align: center;
-
-    }
-    .map{
-        padding:1%;
-        margin: auto;
-        margin-bottom: 5%;
-
-
-        box-shadow: 0 0 6px lightgrey;
-        width: 70%;
-        background-color:rgb(239, 245, 239);
-    }
-
-}
-
-
-@media (max-width: 415px) {
-    .solution{
-        height: 120vh;
-    }
-
-}
-@media (max-width: 360px) {
-    .solution{
-        height: 160vh;
-    }
-
-}
-
- */
-
-
-/*---------solution side---------*/
+/*--------solution overskrift-------*/
 
 .overskrift_solution{
     padding-top: 3%;
@@ -409,43 +389,33 @@ img.mobil-kart {
     height: 40vw;
     padding: 5px;
 }
-/*------- UN goal 12 ----- */
 
-.ungoal {
+/*------ mobil seksjon ----- */
+
+.mobil-text-innhold{
+    font-size: 40px;
 }
 
-.ungoal-content {
-    background-color: rgb(27, 15, 62);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 14%;
-    padding-right: 14%;
-    color: white;
-
+.mobil-app {
+    width: 80%;
+    padding:5%;
 }
 
-.ungoal-content-text {
-    width: 550px;
-    padding-left: 60px;
-    padding-right: 60px;
+.mobil-text {
+    font-size: 1.2em;
 }
 
-.ungoal-bilde {
-    width: 220px;
-    padding-top: 3%;
+img.mobil-kart {
+    padding: 0;
+    margin: 0;
 }
 
-.ungoal-content img {
-    width:100%;
+.mobil-kart{
+    padding-top: 10%;
     height: auto;
+    width: 280px;
 }
 
-.srclink {
-    color: #d0ebff;
-}
 
 /* =====mobilversion====== */
 
