@@ -204,7 +204,7 @@ li a:hover {
 #button {
     text-align: center;
     background-color: darkred;
-    width: fit-content;
+    width: 190px;
     margin: auto;
     margin-bottom: 10%;
     padding: 10px;
