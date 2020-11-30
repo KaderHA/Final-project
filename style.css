@@ -429,6 +429,10 @@ img.mobil-kart {
     height: auto;
 }
 
+.srclink {
+    color: #d0ebff;
+}
+
 /* =====mobilversion====== */
 
 @media (min-width: 768px) {
