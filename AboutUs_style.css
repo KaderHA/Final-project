@@ -243,6 +243,7 @@ li a:hover {
         max-width: 80%;
         margin: 0 auto;
         padding-top: 7%;
+        padding-bottom:0.5em;
         margin-bottom: 0.1em;
         letter-spacing: 2px;
         display: block;
@@ -263,7 +264,7 @@ li a:hover {
     }
 
     #container2{
-        margin:0 5em;
+        margin:0 5em; 
     }
 
     .gridLayout{
@@ -271,8 +272,7 @@ li a:hover {
         display:-ms-grid;
         grid-gap: 2.3em;
         grid-template-columns: auto auto auto;
-        -ms-grid-columns: 1fr 1fr 1fr;  
-        -ms-grid-rows:1fr 1fr 1fr;
+        -ms-grid-columns: auto auto  auto ;
     }
    
    .items{
@@ -289,37 +289,52 @@ li a:hover {
        font-weight: bold;
        font-size: 35px;
    }
+
+           #item1{
+            -ms-grid-row:1;
+           }  
+           
+           #item2{
+            -ms-grid-row:1;
+            -ms-grid-column:2;
+           }  
+           
+           #item3{
+            -ms-grid-row:1;
+            -ms-grid-column:3;
+           }  
+           
+           #item4{
+            -ms-grid-row:2;
+           }  
+            
+           #item5{
+            -ms-grid-row:2;
+            -ms-grid-column:2;
+            }  
+            
+            #item6{
+            -ms-grid-row:2;
+            -ms-grid-column:3;
+            }  
+            
+            #item7{
+            -ms-grid-row:3;
+            }
     
-   #item1{
-    -ms-grid-row:1;
-   }  
-   
-   #item2{
-    -ms-grid-row:1;
-    -ms-grid-column:2;
-   }  
-   
-   #item3{
-    -ms-grid-row:1;
-    -ms-grid-column:3;
-   }  
-   
-   #item4{
-    -ms-grid-row:2;
-   }  
-    
-   #item5{
-    -ms-grid-row:2;
-    -ms-grid-column:2;
-    }  
-    
-    #item6{
-    -ms-grid-row:2;
-    -ms-grid-column:3;
-    }  
-    
-    #item7{
-    -ms-grid-row:3;
-    }  
 
 }
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){  
+  .gridLayout{
+      display: -ms-flexbox;
+      -ms-flex-direction: column;
+      -ms-flex-align: center;
+  }  
+        
+  .items{
+      height:20em;
+      width:30em;
+  }
+
+}  
