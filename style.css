@@ -144,6 +144,7 @@ li a:hover {
     background-color: white;
     opacity: 70%;
     text-decoration: none;
+    padding-right: 3%;
 }
 
 
@@ -481,6 +482,15 @@ img.mobil-kart {
     .overskrift_forside {
         top: 13%;
         font-size: 7vh;
+    }
+
+    .ungoal-content {
+
+        padding-bottom: 2%;
+        padding-left: 4%;
+        padding-right: 4%;
+
+
     }
 
 }
