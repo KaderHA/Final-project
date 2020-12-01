@@ -1,3 +1,14 @@
+@supports (display: grid) { 
+    div { 
+        display: grid; 
+    } 
+} 
+@supports not (display: grid) {
+    div { 
+        float: right;
+    } 
+}  
+
 *{margin:0;
     padding:0;
     -webkit-text-stroke-width: 0.7px;
@@ -204,6 +215,8 @@ li a:hover {
 
 /* Desktop */
 @media (min-width: 768px) {
+      
+
     .header .meny {
         clear: none;
         float: right;
@@ -272,7 +285,7 @@ li a:hover {
         display:-ms-grid;
         grid-gap: 2.3em;
         grid-template-columns: auto auto auto;
-        -ms-grid-columns: auto auto  auto ;
+        -ms-grid-columns: 1fr 1fr 1fr;
     }
    
    .items{
@@ -290,7 +303,7 @@ li a:hover {
        font-size: 35px;
    }
 
-           #item1{
+         #item1{
             -ms-grid-row:1;
            }  
            
@@ -321,20 +334,14 @@ li a:hover {
             #item7{
             -ms-grid-row:3;
             }
-    
+      
 
 }
 
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){  
-  .gridLayout{
-      display: -ms-flexbox;
-      -ms-flex-direction: column;
-      -ms-flex-align: center;
-  }  
-        
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none){  
   .items{
-      height:20em;
-      width:30em;
+    margin:0em 2.3em;
+    box-shadow: none;
   }
 
-}  
+} 
